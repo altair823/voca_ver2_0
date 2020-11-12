@@ -1,0 +1,4 @@
+/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles/BoostTest.dir
+/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles/voca_ver2_0.dir
