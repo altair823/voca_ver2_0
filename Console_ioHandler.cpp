@@ -11,6 +11,7 @@ void Console::VocaStart(const string& id, int vocaSize) {
 }
 
 CHOICE Console::VocaChoice() {
+    CHOICE choice;
     while (true) {
         cout << "1. 단어들을 모두 출력" << endl;
         cout << "2. 단어 입력" << endl;
@@ -19,7 +20,6 @@ CHOICE Console::VocaChoice() {
         cout << "5. 프로그램 종료" << endl;
         cout << ">>";
         int choice_in;
-        CHOICE choice;
         cin >> choice_in;
         switch (choice_in) {
             case 1:
@@ -47,4 +47,5 @@ CHOICE Console::VocaChoice() {
             break;
         }
     }
+    return choice;
 }

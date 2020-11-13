@@ -4,7 +4,9 @@
 
 #include "Voca_Header/handler.hpp"
 
-Handler::Handler() = default;
+Handler::Handler() {
+    vocaSize = 0;
+}
 
 Handler *Handler::get() {
     //C++11 이상에서 스레드 세이프 함
@@ -13,9 +15,10 @@ Handler *Handler::get() {
 }
 
 void Handler::test() {
-    auto a = FHandler::get();
-    a->test();
+    auto fileHandler = FHandler::get();
+    fileHandler->readFile(wordList);
     Console::VocaStart("altair823", 3);
     Console::VocaChoice();
 
+    fileHandler->closeFHandler();
 }

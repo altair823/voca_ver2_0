@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/altair823/Desktop/voca_ver2.0
+CMAKE_SOURCE_DIR = /Users/altair823/Desktop/voca_ver2_0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/altair823/Desktop/voca_ver2.0/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/altair823/Desktop/voca_ver2_0/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles /Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles /Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,19 +131,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BoostTest
-
-# Build rule for target.
-BoostTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BoostTest
-.PHONY : BoostTest
-
-# fast build rule for target.
-BoostTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/build
-.PHONY : BoostTest/fast
-
-#=============================================================================
 # Target rules for targets named voca_ver2_0
 
 # Build rule for target.
@@ -162,7 +149,6 @@ Console_ioHandler.o: Console_ioHandler.cpp.o
 
 # target to build an object file
 Console_ioHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Console_ioHandler.cpp.o
 .PHONY : Console_ioHandler.cpp.o
 
@@ -172,7 +158,6 @@ Console_ioHandler.i: Console_ioHandler.cpp.i
 
 # target to preprocess a source file
 Console_ioHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Console_ioHandler.cpp.i
 .PHONY : Console_ioHandler.cpp.i
 
@@ -182,7 +167,6 @@ Console_ioHandler.s: Console_ioHandler.cpp.s
 
 # target to generate assembly for a file
 Console_ioHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Console_ioHandler.cpp.s
 .PHONY : Console_ioHandler.cpp.s
 
@@ -192,7 +176,6 @@ Data_Structure.o: Data_Structure.cpp.o
 
 # target to build an object file
 Data_Structure.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/Data_Structure.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Data_Structure.cpp.o
 .PHONY : Data_Structure.cpp.o
 
@@ -202,7 +185,6 @@ Data_Structure.i: Data_Structure.cpp.i
 
 # target to preprocess a source file
 Data_Structure.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/Data_Structure.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Data_Structure.cpp.i
 .PHONY : Data_Structure.cpp.i
 
@@ -212,7 +194,6 @@ Data_Structure.s: Data_Structure.cpp.s
 
 # target to generate assembly for a file
 Data_Structure.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/Data_Structure.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Data_Structure.cpp.s
 .PHONY : Data_Structure.cpp.s
 
@@ -222,7 +203,6 @@ File_ioHandler.o: File_ioHandler.cpp.o
 
 # target to build an object file
 File_ioHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/File_ioHandler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.o
 .PHONY : File_ioHandler.cpp.o
 
@@ -232,7 +212,6 @@ File_ioHandler.i: File_ioHandler.cpp.i
 
 # target to preprocess a source file
 File_ioHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/File_ioHandler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.i
 .PHONY : File_ioHandler.cpp.i
 
@@ -242,7 +221,6 @@ File_ioHandler.s: File_ioHandler.cpp.s
 
 # target to generate assembly for a file
 File_ioHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/File_ioHandler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.s
 .PHONY : File_ioHandler.cpp.s
 
@@ -252,7 +230,6 @@ handler.o: handler.cpp.o
 
 # target to build an object file
 handler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/handler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/handler.cpp.o
 .PHONY : handler.cpp.o
 
@@ -262,7 +239,6 @@ handler.i: handler.cpp.i
 
 # target to preprocess a source file
 handler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/handler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/handler.cpp.i
 .PHONY : handler.cpp.i
 
@@ -272,7 +248,6 @@ handler.s: handler.cpp.s
 
 # target to generate assembly for a file
 handler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/handler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/handler.cpp.s
 .PHONY : handler.cpp.s
 
@@ -282,7 +257,6 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/main.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -292,7 +266,6 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/main.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -302,7 +275,6 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoostTest.dir/build.make CMakeFiles/BoostTest.dir/main.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -314,7 +286,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... BoostTest"
 	@echo "... voca_ver2_0"
 	@echo "... Console_ioHandler.o"
 	@echo "... Console_ioHandler.i"

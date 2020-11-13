@@ -26,10 +26,53 @@ Word WordFactory::MakeWord(string eng, vector<string> kor) {
     //단어 객체를 생성하여 반환
     return Word{eng, kor};
 }
+static inline void ltrim(std::string& s) {
+    s.erase(s.begin(), std::find_if(s.begin(), s.end(), [](int ch) {
+        return !std::isspace(ch);
+    }));
+}
 
 
-Word::Word(string &eng, vector<string> &kor) : eng(eng), kor(kor) {
+// trim from end (in place)
+static inline void rtrim(std::string& s) {
+    s.erase(std::find_if(s.rbegin(), s.rend(), [](int ch) {
+        return !std::isspace(ch);
+    }).base(), s.end());
+}
 
+
+Word::Word(string &eng_in, vector<string> &kor_in) : eng(eng_in), kor(kor_in) {
+
+    //Word 객체를 생성할 때 매개변수로 주어진 string과 vector<string>들에 포함된 양옆의 공백을 삭제
+    int n;
+    n = eng.find_first_not_of(' ');
+    if ( n != string::npos )
+        eng.replace(0, n,"");
+    n = eng.find_last_not_of(' ');
+    if ( n != string::npos )
+        eng.replace(n+1, eng.length()-n,"");
+
+    for (auto& i : kor){
+        n = i.find_first_not_of(' ');
+        if ( n != string::npos )
+            i.replace(0, n,"");
+        n = i.find_last_not_of(' ');
+        if ( n != string::npos )
+            i.replace(n+1, eng.length()-n,"");
+    }
+
+
+    //이하는 모든 공백을 삭제하는 코드이지만,
+    //영어단어와 그 뜻에 공백이 포함 될 수도 있으니 모든 공백을 삭제하는 것은 옳지 않다.
+    /*
+    string::iterator temp = remove(eng.begin(), eng.end(), ' ');
+    eng.erase(temp, eng.end());
+
+    for (auto& i : kor) {
+        temp = remove(i.begin(), i.end(), ' ');
+        i.erase(temp, i.end());
+    }
+     */
 }
 
 vector<string> Word::PrintWord() {
@@ -37,4 +80,17 @@ vector<string> Word::PrintWord() {
     wordLine.insert(wordLine.begin(), eng);
     return wordLine;
 }
+
+ostream &operator<<(ostream &os, const Word &ref) {
+    os<<ref.eng<<": ";
+    for (auto& i : ref.kor) {
+        os<<i;
+        if (i != *ref.kor.rbegin()){
+            os<<", ";
+        }
+    }
+    return os;
+}
+
+
 

@@ -5,218 +5,110 @@
 		<Option title="voca_ver2_0"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\;"/>
+		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug"/>
+				<Option working_dir="/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug"/>
+				<Option working_dir="/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug"/>
+				<Option working_dir="/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="BoostTest">
-				<Option output="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/BoostTest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DBOOST_ALL_NO_LIB"/>
-					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
-					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 BoostTest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="BoostTest/fast">
-				<Option output="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/BoostTest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DBOOST_ALL_NO_LIB"/>
-					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
-					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 BoostTest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="voca_ver2_0">
-				<Option output="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/voca_ver2_0" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug"/>
+				<Option output="/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/voca_ver2_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 voca_ver2_0"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 voca_ver2_0"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="voca_ver2_0/fast">
-				<Option output="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/voca_ver2_0" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug"/>
+				<Option output="/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/voca_ver2_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 voca_ver2_0/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 voca_ver2_0/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/Console_ioHandler.cpp">
-			<Option target="BoostTest"/>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Console_ioHandler.cpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/Data_Structure.cpp">
-			<Option target="BoostTest"/>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Data_Structure.cpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/File_ioHandler.cpp">
-			<Option target="BoostTest"/>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/File_ioHandler.cpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/Voca_Header/Console_ioHandler.hpp">
-			<Option target="BoostTest"/>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/Voca_Header/Data_Structure.hpp">
-			<Option target="BoostTest"/>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/Voca_Header/File_ioHandler.hpp">
-			<Option target="BoostTest"/>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/Voca_Header/handler.hpp">
-			<Option target="BoostTest"/>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Voca_Header/handler.hpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/handler.cpp">
-			<Option target="BoostTest"/>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/handler.cpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/main.cpp">
-			<Option target="BoostTest"/>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/main.cpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/CMakeLists.txt">
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/BoostDetectToolset-1.74.0.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/Boost-1.74.0/BoostConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/Boost-1.74.0/BoostConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_system-1.74.0/boost_system-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_system-1.74.0/boost_system-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_system-1.74.0/libboost_system-variant-mt-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_system-1.74.0/libboost_system-variant-mt-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_system-1.74.0/libboost_system-variant-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_system-1.74.0/libboost_system-variant-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/boost_filesystem-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/boost_filesystem-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/libboost_filesystem-variant-mt-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/libboost_filesystem-variant-mt-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/libboost_filesystem-variant-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
-		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2.0/../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/libboost_filesystem-variant-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

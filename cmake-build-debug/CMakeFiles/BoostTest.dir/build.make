@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/altair823/Desktop/voca_ver2.0
+CMAKE_SOURCE_DIR = /Users/altair823/Desktop/voca_ver2_0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/altair823/Desktop/voca_ver2.0/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/altair823/Desktop/voca_ver2_0/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BoostTest.dir/depend.make
@@ -79,68 +79,68 @@ include CMakeFiles/BoostTest.dir/flags.make
 
 CMakeFiles/BoostTest.dir/main.cpp.o: CMakeFiles/BoostTest.dir/flags.make
 CMakeFiles/BoostTest.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BoostTest.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTest.dir/main.cpp.o -c /Users/altair823/Desktop/voca_ver2.0/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BoostTest.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTest.dir/main.cpp.o -c /Users/altair823/Desktop/voca_ver2_0/main.cpp
 
 CMakeFiles/BoostTest.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoostTest.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2.0/main.cpp > CMakeFiles/BoostTest.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2_0/main.cpp > CMakeFiles/BoostTest.dir/main.cpp.i
 
 CMakeFiles/BoostTest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoostTest.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2.0/main.cpp -o CMakeFiles/BoostTest.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2_0/main.cpp -o CMakeFiles/BoostTest.dir/main.cpp.s
 
 CMakeFiles/BoostTest.dir/handler.cpp.o: CMakeFiles/BoostTest.dir/flags.make
 CMakeFiles/BoostTest.dir/handler.cpp.o: ../handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BoostTest.dir/handler.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTest.dir/handler.cpp.o -c /Users/altair823/Desktop/voca_ver2.0/handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BoostTest.dir/handler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTest.dir/handler.cpp.o -c /Users/altair823/Desktop/voca_ver2_0/handler.cpp
 
 CMakeFiles/BoostTest.dir/handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoostTest.dir/handler.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2.0/handler.cpp > CMakeFiles/BoostTest.dir/handler.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2_0/handler.cpp > CMakeFiles/BoostTest.dir/handler.cpp.i
 
 CMakeFiles/BoostTest.dir/handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoostTest.dir/handler.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2.0/handler.cpp -o CMakeFiles/BoostTest.dir/handler.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2_0/handler.cpp -o CMakeFiles/BoostTest.dir/handler.cpp.s
 
 CMakeFiles/BoostTest.dir/File_ioHandler.cpp.o: CMakeFiles/BoostTest.dir/flags.make
 CMakeFiles/BoostTest.dir/File_ioHandler.cpp.o: ../File_ioHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BoostTest.dir/File_ioHandler.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTest.dir/File_ioHandler.cpp.o -c /Users/altair823/Desktop/voca_ver2.0/File_ioHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BoostTest.dir/File_ioHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTest.dir/File_ioHandler.cpp.o -c /Users/altair823/Desktop/voca_ver2_0/File_ioHandler.cpp
 
 CMakeFiles/BoostTest.dir/File_ioHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoostTest.dir/File_ioHandler.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2.0/File_ioHandler.cpp > CMakeFiles/BoostTest.dir/File_ioHandler.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2_0/File_ioHandler.cpp > CMakeFiles/BoostTest.dir/File_ioHandler.cpp.i
 
 CMakeFiles/BoostTest.dir/File_ioHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoostTest.dir/File_ioHandler.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2.0/File_ioHandler.cpp -o CMakeFiles/BoostTest.dir/File_ioHandler.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2_0/File_ioHandler.cpp -o CMakeFiles/BoostTest.dir/File_ioHandler.cpp.s
 
 CMakeFiles/BoostTest.dir/Data_Structure.cpp.o: CMakeFiles/BoostTest.dir/flags.make
 CMakeFiles/BoostTest.dir/Data_Structure.cpp.o: ../Data_Structure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BoostTest.dir/Data_Structure.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTest.dir/Data_Structure.cpp.o -c /Users/altair823/Desktop/voca_ver2.0/Data_Structure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BoostTest.dir/Data_Structure.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTest.dir/Data_Structure.cpp.o -c /Users/altair823/Desktop/voca_ver2_0/Data_Structure.cpp
 
 CMakeFiles/BoostTest.dir/Data_Structure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoostTest.dir/Data_Structure.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2.0/Data_Structure.cpp > CMakeFiles/BoostTest.dir/Data_Structure.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2_0/Data_Structure.cpp > CMakeFiles/BoostTest.dir/Data_Structure.cpp.i
 
 CMakeFiles/BoostTest.dir/Data_Structure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoostTest.dir/Data_Structure.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2.0/Data_Structure.cpp -o CMakeFiles/BoostTest.dir/Data_Structure.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2_0/Data_Structure.cpp -o CMakeFiles/BoostTest.dir/Data_Structure.cpp.s
 
 CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.o: CMakeFiles/BoostTest.dir/flags.make
 CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.o: ../Console_ioHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.o -c /Users/altair823/Desktop/voca_ver2.0/Console_ioHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.o -c /Users/altair823/Desktop/voca_ver2_0/Console_ioHandler.cpp
 
 CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2.0/Console_ioHandler.cpp > CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2_0/Console_ioHandler.cpp > CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.i
 
 CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2.0/Console_ioHandler.cpp -o CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2_0/Console_ioHandler.cpp -o CMakeFiles/BoostTest.dir/Console_ioHandler.cpp.s
 
 # Object files for target BoostTest
 BoostTest_OBJECTS = \
@@ -162,7 +162,7 @@ BoostTest: CMakeFiles/BoostTest.dir/build.make
 BoostTest: /usr/local/lib/libboost_system-mt.dylib
 BoostTest: /usr/local/lib/libboost_filesystem-mt.dylib
 BoostTest: CMakeFiles/BoostTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable BoostTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable BoostTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BoostTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -175,6 +175,6 @@ CMakeFiles/BoostTest.dir/clean:
 .PHONY : CMakeFiles/BoostTest.dir/clean
 
 CMakeFiles/BoostTest.dir/depend:
-	cd /Users/altair823/Desktop/voca_ver2.0/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/altair823/Desktop/voca_ver2.0 /Users/altair823/Desktop/voca_ver2.0 /Users/altair823/Desktop/voca_ver2.0/cmake-build-debug /Users/altair823/Desktop/voca_ver2.0/cmake-build-debug /Users/altair823/Desktop/voca_ver2.0/cmake-build-debug/CMakeFiles/BoostTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/altair823/Desktop/voca_ver2_0/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/altair823/Desktop/voca_ver2_0 /Users/altair823/Desktop/voca_ver2_0 /Users/altair823/Desktop/voca_ver2_0/cmake-build-debug /Users/altair823/Desktop/voca_ver2_0/cmake-build-debug /Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles/BoostTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BoostTest.dir/depend
 

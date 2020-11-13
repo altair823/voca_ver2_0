@@ -6,10 +6,13 @@
 #define VOCA_VER2_0_DATA_STRUCTURE_HPP
 
 #define NO_KOR_WORD_ALLOW
+//#define PROGRAM_RELEASED
+#define FILE_PATH "./desktop/voca.txt"
+#define VERIFY_STRING "altair823"
 
 #include <iostream>
 #include <vector>
-#include <boost/noncopyable.hpp>
+//#include <boost/noncopyable.hpp>
 
 using namespace std;
 struct WordFactory;
@@ -30,6 +33,8 @@ struct Word{
     vector<string> PrintWord();
 
     friend WordFactory;
+    friend ostream& operator<<(ostream& os, const Word&);
+    //Word(const Word&);
 private:
     string eng;
     vector<string> kor;
