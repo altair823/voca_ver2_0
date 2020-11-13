@@ -9,9 +9,6 @@ FHandler* FHandler::get() {
     return fhandler;
 }
 
-void FHandler::test() {
-    cout<<"test"<<endl;
-}
 
 FHandler::FHandler() {
     static int fileErrorCount = 0;
@@ -78,13 +75,18 @@ Word FHandler::readAWord() {
     //cout<<"gg"<<endl;
     return word;
 }
+/*
+bool FHandler::isThisEnd(){
+    string buffer;
+    getline(vocaFile, buffer, '\n');
+}
+ */
 
 void FHandler::readFile(vector<Word> &wordList) {
     int size = verifyFile();
     cout<<size<<endl;
-    for (int i = 0; i < size; ++i) {
+    for (int i = 0;i<size; ++i) {
         wordList.push_back(readAWord());
-
         cout<<wordList[i]<<endl;
     }
 }

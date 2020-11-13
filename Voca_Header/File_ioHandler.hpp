@@ -18,10 +18,9 @@ private:
 
 public:
     static FHandler* get();
-    void test();
 
     int verifyFile();
-    //void readAWord(Word &word);
+    Word readAWord();
     void readFile(vector<Word>& wordList);
 
     //파일을 닫고 저장하는 함수
@@ -34,7 +33,6 @@ public:
     FHandler& operator=(FHandler const&) = delete;
     FHandler& operator=(FHandler&&) = delete;
 
-    Word readAWord();
 };
 
 #endif //VOCA_VER2_0_FILE_IOHANDLER_HPP

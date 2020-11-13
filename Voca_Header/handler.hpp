@@ -25,6 +25,7 @@ public:
     static Handler* get();
     void test();
 
+    void printAllWord();
 
     Handler(Handler const&) = delete;
     Handler(Handler&&) = delete;

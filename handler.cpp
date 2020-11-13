@@ -5,6 +5,7 @@
 #include "Voca_Header/handler.hpp"
 
 Handler::Handler() {
+    auto fileHandler = FHandler::get();
     vocaSize = 0;
 }
 
