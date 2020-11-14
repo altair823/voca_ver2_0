@@ -13,10 +13,10 @@ FHandler* FHandler::get() {
 FHandler::FHandler() {
     static int fileErrorCount = 0;
     while (true) {
-#ifdef PROGRAM_RELEASED
+#ifndef DEBUG_MODE_ON
         vocaFile.open(FILE_PATH);
 #endif
-#ifndef PROGRAM_RELEASED
+#ifdef DEBUG_MODE_ON
         vocaFile.open("voca.txt");
 #endif
         if (vocaFile.is_open()) {
@@ -49,7 +49,9 @@ FHandler::FHandler() {
 }
 
 void FHandler::closeFHandler() {
-    cout<<"close"<<endl;
+#ifdef DEBUG_MODE_ON
+    cout<<"file is close"<<endl;
+#endif
     vocaFile.close();
 }
 
@@ -71,9 +73,9 @@ Word FHandler::readAWord() {
     }
 
     //cout<<"tt"<<endl;
-    auto word = WordFactory::MakeWord(eng, kor);
+    return WordFactory::MakeWord(eng, kor);
     //cout<<"gg"<<endl;
-    return word;
+    //return word;
 }
 /*
 bool FHandler::isThisEnd(){
@@ -84,10 +86,10 @@ bool FHandler::isThisEnd(){
 
 void FHandler::readFile(vector<Word> &wordList) {
     int size = verifyFile();
-    cout<<size<<endl;
+    //cout<<size<<endl;
     for (int i = 0;i<size; ++i) {
         wordList.push_back(readAWord());
-        cout<<wordList[i]<<endl;
+        //cout<<wordList[i]<<endl;
     }
 }
 

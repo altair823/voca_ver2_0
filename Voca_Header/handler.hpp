@@ -17,7 +17,6 @@ private:
     Handler();
 
     vector<Word> wordList;
-    int vocaSize;
 
     //FHandler fileHandler;
 
@@ -27,10 +26,14 @@ public:
 
     void printAllWord();
 
+    void inputAWord();
+
+    //싱글톤 패턴
     Handler(Handler const&) = delete;
     Handler(Handler&&) = delete;
     Handler& operator=(Handler const&) = delete;
     Handler& operator=(Handler&&) = delete;
+
 };
 
 #endif //VOCA_VER2_0_HANDLER_HPP

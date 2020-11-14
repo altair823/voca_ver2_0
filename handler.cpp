@@ -6,7 +6,10 @@
 
 Handler::Handler() {
     auto fileHandler = FHandler::get();
-    vocaSize = 0;
+    fileHandler->readFile(wordList);
+    fileHandler->closeFHandler();
+
+    Console::VocaStart("altair823", wordList.size());
 }
 
 Handler *Handler::get() {
@@ -16,10 +19,17 @@ Handler *Handler::get() {
 }
 
 void Handler::test() {
-    auto fileHandler = FHandler::get();
-    fileHandler->readFile(wordList);
-    Console::VocaStart("altair823", 3);
-    Console::VocaChoice();
 
-    fileHandler->closeFHandler();
+}
+
+
+void Handler::printAllWord() {
+    for (auto& i : wordList) {
+        cout<<i<<endl;
+    }
+}
+
+void Handler::inputAWord() {
+    wordList.push_back(Console::inputWord());
+
 }

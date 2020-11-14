@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/altair823/Desktop/voca_ver2_0/File_ioHandler.cpp
-Voca_Header/File_ioHandler.hpp
-/Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Console_ioHandler.cpp
+Voca_Header/Console_ioHandler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp
+
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp
+iostream
+-
+Data_Structure.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp
 
 /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp
 iostream
 -
 vector
 -
-
-/Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp
-fstream
--
-Data_Structure.hpp
-/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp
 

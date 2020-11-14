@@ -5,8 +5,8 @@
 #ifndef VOCA_VER2_0_DATA_STRUCTURE_HPP
 #define VOCA_VER2_0_DATA_STRUCTURE_HPP
 
+#define DEBUG_MODE_ON
 #define NO_KOR_WORD_ALLOW
-//#define PROGRAM_RELEASED
 #define FILE_PATH "./desktop/voca.txt"
 #define VERIFY_STRING "altair823"
 

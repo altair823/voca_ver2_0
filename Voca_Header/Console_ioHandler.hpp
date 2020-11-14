@@ -12,10 +12,13 @@
 struct Console{
 
     //시작화면
-    static void VocaStart(const string& id, int vocaSize);
+    const static void VocaStart(const string& id, int vocaSize);
 
     //선택화면
     static CHOICE VocaChoice();
+
+    //단어 입력 화면
+    static Word inputWord();
 };
 
 #endif //VOCA_VER2_0_CONSOLE_IOHANDLER_HPP
