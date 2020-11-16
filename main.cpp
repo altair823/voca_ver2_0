@@ -4,8 +4,12 @@
 int main() {
     std::cout << "테스트" << std::endl;
     Handler* handler;
+    auto fhandler = FHandler::get();
 
     handler = Handler::get();
+    handler->setWordList(fhandler->readFile());
+
+    fhandler->closeFHandler();
 
     while (true){
         switch (Console::VocaChoice()) {
@@ -16,12 +20,14 @@ int main() {
                 handler->inputAWord();
                 break;
             case CHOICE::DELETE:
+                handler->deleteWord();
                 break;
             case CHOICE::QUIZ:
                 break;
             case CHOICE::FALSE:
                 break;
             case CHOICE::EXIT:
+                fhandler->saveFile(handler->getWordList());
                 exit(0);
         }
     }

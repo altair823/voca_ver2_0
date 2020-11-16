@@ -18,15 +18,19 @@ private:
 
     vector<Word> wordList;
 
-    //FHandler fileHandler;
-
 public:
+
+    //handler 인스턴스를 생성하는 함수
     static Handler* get();
-    void test();
+
+    void setWordList(const vector<Word>&);
+    vector<Word> getWordList();
 
     void printAllWord();
 
     void inputAWord();
+
+    void deleteWord();
 
     //싱글톤 패턴
     Handler(Handler const&) = delete;

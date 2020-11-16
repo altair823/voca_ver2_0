@@ -75,10 +75,13 @@ Word::Word(string &eng_in, vector<string> &kor_in) : eng(eng_in), kor(kor_in) {
      */
 }
 
-vector<string> Word::PrintWord() {
-    vector<string> wordLine(kor);
-    wordLine.insert(wordLine.begin(), eng);
-    return wordLine;
+
+string Word::getEng() const {
+    return eng;
+}
+
+vector<string> Word::getKorVec() const {
+    return kor;
 }
 
 ostream &operator<<(ostream &os, const Word &ref) {
@@ -91,6 +94,12 @@ ostream &operator<<(ostream &os, const Word &ref) {
     }
     return os;
 }
+/*
+fstream &operator<<(fstream & fs, const Word &ref) {
+    fs>>ref.getEng().c_str();
+    return <#initializer#>;
+}
+ */
 
 
 

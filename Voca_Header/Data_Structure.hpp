@@ -7,8 +7,15 @@
 
 #define DEBUG_MODE_ON
 #define NO_KOR_WORD_ALLOW
-#define FILE_PATH "./desktop/voca.txt"
+
 #define VERIFY_STRING "altair823"
+
+#ifndef DEBUG_MODE_ON
+#define FILE_PATH "./desktop/voca.txt"
+#endif
+#ifdef DEBUG_MODE_ON
+#define FILE_PATH "voca.txt"
+#endif
 
 #include <iostream>
 #include <vector>
@@ -30,11 +37,13 @@ enum class CHOICE{
 //단어를 저장하는 기본 단위
 struct Word{
 
-    vector<string> PrintWord();
-
     friend WordFactory;
-    friend ostream& operator<<(ostream& os, const Word&);
-    //Word(const Word&);
+    friend ostream& operator<<(ostream&, const Word&);
+    friend fstream& operator<<(fstream&, const Word&);
+
+    [[nodiscard]] string getEng() const;
+    [[nodiscard]] vector<string> getKorVec() const;
+
 private:
     string eng;
     vector<string> kor;

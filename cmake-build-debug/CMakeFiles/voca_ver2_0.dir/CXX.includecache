@@ -22,3 +22,27 @@ iostream
 vector
 -
 
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp
+fstream
+-
+Data_Structure.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp
+
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/handler.hpp
+iostream
+-
+File_ioHandler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp
+Console_ioHandler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp
+
+/Users/altair823/Desktop/voca_ver2_0/handler.cpp
+Voca_Header/handler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/handler.hpp
+
+/Users/altair823/Desktop/voca_ver2_0/main.cpp
+iostream
+-
+Voca_Header/handler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/handler.hpp
+

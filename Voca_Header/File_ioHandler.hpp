@@ -12,7 +12,7 @@
 struct FHandler{//; : boost::noncopyable {
 
 private:
-    fstream vocaFile;
+    ifstream vocaFile;
 
     FHandler();
 
@@ -21,9 +21,11 @@ public:
 
     int verifyFile();
     Word readAWord();
-    void readFile(vector<Word>& wordList);
+    vector<Word> readFile();
 
-    //파일을 닫고 저장하는 함수
+    //파일을 모두 지우고 필요한 내용을 위에서부터 저장하는 함수
+    void saveFile(const vector<Word> &);
+
     //반드시 마지막에 호출할 것!
     void closeFHandler();
 

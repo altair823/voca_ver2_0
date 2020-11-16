@@ -4,9 +4,8 @@
 
 #include "Voca_Header/Console_ioHandler.hpp"
 
-const void Console::VocaStart(const string& id, int vocaSize) {
+void Console::VocaStart(const string& id) {
     cout<<id<<"'s Vocabulary"<<endl;
-    cout<<"Vocabulary size is "<<vocaSize<<endl;
     cout<<"---------------------------------"<<endl;
 }
 
@@ -52,11 +51,9 @@ CHOICE Console::VocaChoice() {
     return choice;
 }
 
-Word Console::inputWord() {
+string Console::inputEngWord() {
     string eng;
-    vector<string> kor;
 
-    //영어 단어를 입력받음
     while (true){
         cout<<"영어 단어를 입력하시오"<<endl;
         cout<<">>";
@@ -64,26 +61,33 @@ Word Console::inputWord() {
         if (!eng.empty()){
             cin.clear();
             cin.ignore();
-            break;
+            return eng;
         }
-        cout<<"잘못된 입력입니다"<<endl;
-        cin.clear();
-        cin.ignore();
+        else{
+            cout<<"잘못된 입력입니다"<<endl;
+            cin.clear();
+            cin.ignore();
+        }
     }
+}
+
+Word Console::inputWord() {
+    //영어 단어를 입력받음
+    string eng = inputEngWord();
 
     //한국어 뜻을 입력 받음
+    vector<string> kor;
     string buffer;
     cout<<"뜻을 입력하십시오. 숫자 0을 입력할 때까지 계속 입력할 수 있습니다."<<endl;
     while (true){
         cout<<">>";
-        buffer = "";
         cin>>buffer;
 
         //만약 공백이 입력된다면 루프를 탈출하고 입력 받는 것을 중단함
         if (buffer == "0"){
             cin.clear();
             cin.ignore();
-            break;
+            return WordFactory::MakeWord(eng, kor);
         }
         else{
             kor.push_back(buffer);
@@ -92,6 +96,5 @@ Word Console::inputWord() {
 
         }
     }
-
-    return WordFactory::MakeWord(eng, kor);
 }
+
