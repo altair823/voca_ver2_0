@@ -114,6 +114,12 @@ void FHandler::saveFile(const vector<Word> &wordList) {
     for (auto& i : wordList){
         vocaFileOut<<i<<",/,"<<endl;
     }
+    vocaFileOut.close();
+
+    if (isFileAlreadyOpen){
+        vocaFile.open(FILE_PATH);
+
+    }
 
 }
 

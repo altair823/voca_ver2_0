@@ -28,9 +28,8 @@ int main() {
                 break;
             case CHOICE::EXIT:
                 fhandler->saveFile(handler->getWordList());
-                exit(0);
+                return 0;
         }
     }
 
-    return 0;
 }
