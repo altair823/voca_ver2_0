@@ -5,7 +5,7 @@
 #ifndef VOCA_VER2_0_DATA_STRUCTURE_HPP
 #define VOCA_VER2_0_DATA_STRUCTURE_HPP
 
-#define DEBUG_MODE_ON
+//#define DEBUG_MODE_ON
 #define NO_KOR_WORD_ALLOW
 
 #define VERIFY_STRING "altair823"
@@ -39,7 +39,6 @@ struct Word{
 
     friend WordFactory;
     friend ostream& operator<<(ostream&, const Word&);
-    friend fstream& operator<<(fstream&, const Word&);
 
     [[nodiscard]] string getEng() const;
     [[nodiscard]] vector<string> getKorVec() const;

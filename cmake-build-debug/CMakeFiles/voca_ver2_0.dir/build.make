@@ -90,18 +90,18 @@ CMakeFiles/voca_ver2_0.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voca_ver2_0.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2_0/main.cpp -o CMakeFiles/voca_ver2_0.dir/main.cpp.s
 
-CMakeFiles/voca_ver2_0.dir/handler.cpp.o: CMakeFiles/voca_ver2_0.dir/flags.make
-CMakeFiles/voca_ver2_0.dir/handler.cpp.o: ../handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/voca_ver2_0.dir/handler.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/voca_ver2_0.dir/handler.cpp.o -c /Users/altair823/Desktop/voca_ver2_0/handler.cpp
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.o: CMakeFiles/voca_ver2_0.dir/flags.make
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.o: ../Handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/voca_ver2_0.dir/Handler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/voca_ver2_0.dir/Handler.cpp.o -c /Users/altair823/Desktop/voca_ver2_0/Handler.cpp
 
-CMakeFiles/voca_ver2_0.dir/handler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voca_ver2_0.dir/handler.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2_0/handler.cpp > CMakeFiles/voca_ver2_0.dir/handler.cpp.i
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voca_ver2_0.dir/Handler.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2_0/Handler.cpp > CMakeFiles/voca_ver2_0.dir/Handler.cpp.i
 
-CMakeFiles/voca_ver2_0.dir/handler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voca_ver2_0.dir/handler.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2_0/handler.cpp -o CMakeFiles/voca_ver2_0.dir/handler.cpp.s
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voca_ver2_0.dir/Handler.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2_0/Handler.cpp -o CMakeFiles/voca_ver2_0.dir/Handler.cpp.s
 
 CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.o: CMakeFiles/voca_ver2_0.dir/flags.make
 CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.o: ../File_ioHandler.cpp
@@ -142,25 +142,40 @@ CMakeFiles/voca_ver2_0.dir/Console_ioHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voca_ver2_0.dir/Console_ioHandler.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2_0/Console_ioHandler.cpp -o CMakeFiles/voca_ver2_0.dir/Console_ioHandler.cpp.s
 
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o: CMakeFiles/voca_ver2_0.dir/flags.make
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o: ../Quiz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o -c /Users/altair823/Desktop/voca_ver2_0/Quiz.cpp
+
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voca_ver2_0.dir/Quiz.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/altair823/Desktop/voca_ver2_0/Quiz.cpp > CMakeFiles/voca_ver2_0.dir/Quiz.cpp.i
+
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voca_ver2_0.dir/Quiz.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/altair823/Desktop/voca_ver2_0/Quiz.cpp -o CMakeFiles/voca_ver2_0.dir/Quiz.cpp.s
+
 # Object files for target voca_ver2_0
 voca_ver2_0_OBJECTS = \
 "CMakeFiles/voca_ver2_0.dir/main.cpp.o" \
-"CMakeFiles/voca_ver2_0.dir/handler.cpp.o" \
+"CMakeFiles/voca_ver2_0.dir/Handler.cpp.o" \
 "CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.o" \
 "CMakeFiles/voca_ver2_0.dir/Data_Structure.cpp.o" \
-"CMakeFiles/voca_ver2_0.dir/Console_ioHandler.cpp.o"
+"CMakeFiles/voca_ver2_0.dir/Console_ioHandler.cpp.o" \
+"CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o"
 
 # External object files for target voca_ver2_0
 voca_ver2_0_EXTERNAL_OBJECTS =
 
 voca_ver2_0: CMakeFiles/voca_ver2_0.dir/main.cpp.o
-voca_ver2_0: CMakeFiles/voca_ver2_0.dir/handler.cpp.o
+voca_ver2_0: CMakeFiles/voca_ver2_0.dir/Handler.cpp.o
 voca_ver2_0: CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.o
 voca_ver2_0: CMakeFiles/voca_ver2_0.dir/Data_Structure.cpp.o
 voca_ver2_0: CMakeFiles/voca_ver2_0.dir/Console_ioHandler.cpp.o
+voca_ver2_0: CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o
 voca_ver2_0: CMakeFiles/voca_ver2_0.dir/build.make
 voca_ver2_0: CMakeFiles/voca_ver2_0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable voca_ver2_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/altair823/Desktop/voca_ver2_0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable voca_ver2_0"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/voca_ver2_0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

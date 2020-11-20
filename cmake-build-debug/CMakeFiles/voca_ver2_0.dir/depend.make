@@ -12,15 +12,24 @@ CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.o: ../File_ioHandler.cpp
 CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.o: ../Voca_Header/Data_Structure.hpp
 CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.o: ../Voca_Header/File_ioHandler.hpp
 
-CMakeFiles/voca_ver2_0.dir/handler.cpp.o: ../Voca_Header/Console_ioHandler.hpp
-CMakeFiles/voca_ver2_0.dir/handler.cpp.o: ../Voca_Header/Data_Structure.hpp
-CMakeFiles/voca_ver2_0.dir/handler.cpp.o: ../Voca_Header/File_ioHandler.hpp
-CMakeFiles/voca_ver2_0.dir/handler.cpp.o: ../Voca_Header/handler.hpp
-CMakeFiles/voca_ver2_0.dir/handler.cpp.o: ../handler.cpp
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.o: ../Handler.cpp
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.o: ../Voca_Header/Console_ioHandler.hpp
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.o: ../Voca_Header/Data_Structure.hpp
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.o: ../Voca_Header/File_ioHandler.hpp
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.o: ../Voca_Header/Handler.hpp
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.o: ../Voca_Header/Quiz.hpp
+
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o: ../Quiz.cpp
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o: ../Voca_Header/Console_ioHandler.hpp
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o: ../Voca_Header/Data_Structure.hpp
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o: ../Voca_Header/File_ioHandler.hpp
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o: ../Voca_Header/Handler.hpp
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o: ../Voca_Header/Quiz.hpp
 
 CMakeFiles/voca_ver2_0.dir/main.cpp.o: ../Voca_Header/Console_ioHandler.hpp
 CMakeFiles/voca_ver2_0.dir/main.cpp.o: ../Voca_Header/Data_Structure.hpp
 CMakeFiles/voca_ver2_0.dir/main.cpp.o: ../Voca_Header/File_ioHandler.hpp
-CMakeFiles/voca_ver2_0.dir/main.cpp.o: ../Voca_Header/handler.hpp
+CMakeFiles/voca_ver2_0.dir/main.cpp.o: ../Voca_Header/Handler.hpp
+CMakeFiles/voca_ver2_0.dir/main.cpp.o: ../Voca_Header/Quiz.hpp
 CMakeFiles/voca_ver2_0.dir/main.cpp.o: ../main.cpp
 

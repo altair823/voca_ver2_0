@@ -224,32 +224,59 @@ File_ioHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.s
 .PHONY : File_ioHandler.cpp.s
 
-handler.o: handler.cpp.o
+Handler.o: Handler.cpp.o
 
-.PHONY : handler.o
+.PHONY : Handler.o
 
 # target to build an object file
-handler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/handler.cpp.o
-.PHONY : handler.cpp.o
+Handler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Handler.cpp.o
+.PHONY : Handler.cpp.o
 
-handler.i: handler.cpp.i
+Handler.i: Handler.cpp.i
 
-.PHONY : handler.i
+.PHONY : Handler.i
 
 # target to preprocess a source file
-handler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/handler.cpp.i
-.PHONY : handler.cpp.i
+Handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Handler.cpp.i
+.PHONY : Handler.cpp.i
 
-handler.s: handler.cpp.s
+Handler.s: Handler.cpp.s
 
-.PHONY : handler.s
+.PHONY : Handler.s
 
 # target to generate assembly for a file
-handler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/handler.cpp.s
-.PHONY : handler.cpp.s
+Handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Handler.cpp.s
+.PHONY : Handler.cpp.s
+
+Quiz.o: Quiz.cpp.o
+
+.PHONY : Quiz.o
+
+# target to build an object file
+Quiz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o
+.PHONY : Quiz.cpp.o
+
+Quiz.i: Quiz.cpp.i
+
+.PHONY : Quiz.i
+
+# target to preprocess a source file
+Quiz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Quiz.cpp.i
+.PHONY : Quiz.cpp.i
+
+Quiz.s: Quiz.cpp.s
+
+.PHONY : Quiz.s
+
+# target to generate assembly for a file
+Quiz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voca_ver2_0.dir/build.make CMakeFiles/voca_ver2_0.dir/Quiz.cpp.s
+.PHONY : Quiz.cpp.s
 
 main.o: main.cpp.o
 
@@ -296,9 +323,12 @@ help:
 	@echo "... File_ioHandler.o"
 	@echo "... File_ioHandler.i"
 	@echo "... File_ioHandler.s"
-	@echo "... handler.o"
-	@echo "... handler.i"
-	@echo "... handler.s"
+	@echo "... Handler.o"
+	@echo "... Handler.i"
+	@echo "... Handler.s"
+	@echo "... Quiz.o"
+	@echo "... Quiz.i"
+	@echo "... Quiz.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

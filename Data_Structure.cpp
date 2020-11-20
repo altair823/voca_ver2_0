@@ -60,19 +60,6 @@ Word::Word(string &eng_in, vector<string> &kor_in) : eng(eng_in), kor(kor_in) {
         if ( n != string::npos )
             i.replace(n+1, eng.length()-n,"");
     }
-
-
-    //이하는 모든 공백을 삭제하는 코드이지만,
-    //영어단어와 그 뜻에 공백이 포함 될 수도 있으니 모든 공백을 삭제하는 것은 옳지 않다.
-    /*
-    string::iterator temp = remove(eng.begin(), eng.end(), ' ');
-    eng.erase(temp, eng.end());
-
-    for (auto& i : kor) {
-        temp = remove(i.begin(), i.end(), ' ');
-        i.erase(temp, i.end());
-    }
-     */
 }
 
 
@@ -94,12 +81,5 @@ ostream &operator<<(ostream &os, const Word &ref) {
     }
     return os;
 }
-/*
-fstream &operator<<(fstream & fs, const Word &ref) {
-    fs>>ref.getEng().c_str();
-    return <#initializer#>;
-}
- */
-
 
 

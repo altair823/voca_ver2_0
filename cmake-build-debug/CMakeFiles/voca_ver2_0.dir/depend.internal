@@ -12,15 +12,24 @@ CMakeFiles/voca_ver2_0.dir/File_ioHandler.cpp.o
  /Users/altair823/Desktop/voca_ver2_0/File_ioHandler.cpp
  /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp
  /Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp
-CMakeFiles/voca_ver2_0.dir/handler.cpp.o
+CMakeFiles/voca_ver2_0.dir/Handler.cpp.o
+ /Users/altair823/Desktop/voca_ver2_0/Handler.cpp
  /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp
  /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp
  /Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp
- /Users/altair823/Desktop/voca_ver2_0/Voca_Header/handler.hpp
- /Users/altair823/Desktop/voca_ver2_0/handler.cpp
+ /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Handler.hpp
+ /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Quiz.hpp
+CMakeFiles/voca_ver2_0.dir/Quiz.cpp.o
+ /Users/altair823/Desktop/voca_ver2_0/Quiz.cpp
+ /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp
+ /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp
+ /Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp
+ /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Handler.hpp
+ /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Quiz.hpp
 CMakeFiles/voca_ver2_0.dir/main.cpp.o
  /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp
  /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp
  /Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp
- /Users/altair823/Desktop/voca_ver2_0/Voca_Header/handler.hpp
+ /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Handler.hpp
+ /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Quiz.hpp
  /Users/altair823/Desktop/voca_ver2_0/main.cpp

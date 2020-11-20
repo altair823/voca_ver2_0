@@ -2,7 +2,7 @@
 // Created by 김태현 on 2020/11/10.
 //
 
-#include "Voca_Header/handler.hpp"
+#include "Voca_Header/Handler.hpp"
 
 Handler::Handler() {
     auto fileHandler = FHandler::get();

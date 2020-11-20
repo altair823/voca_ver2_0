@@ -89,6 +89,12 @@
 		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/File_ioHandler.cpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Handler.cpp">
+			<Option target="voca_ver2_0"/>
+		</Unit>
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Quiz.cpp">
+			<Option target="voca_ver2_0"/>
+		</Unit>
 		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
@@ -98,10 +104,10 @@
 		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Voca_Header/handler.hpp">
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Handler.hpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
-		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/handler.cpp">
+		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Quiz.hpp">
 			<Option target="voca_ver2_0"/>
 		</Unit>
 		<Unit filename="/Users/altair823/Desktop/voca_ver2_0/main.cpp">

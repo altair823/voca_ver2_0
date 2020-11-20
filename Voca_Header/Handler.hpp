@@ -9,8 +9,9 @@
 
 #include "File_ioHandler.hpp"
 #include "Console_ioHandler.hpp"
+#include "Quiz.hpp"
 
-struct Handler{//; : public boost::noncopyable {
+struct Handler {
 
 private:
 
@@ -20,7 +21,7 @@ private:
 
 public:
 
-    //handler 인스턴스를 생성하는 함수
+    //Handler 인스턴스를 생성하는 함수
     static Handler* get();
 
     void setWordList(const vector<Word>&);

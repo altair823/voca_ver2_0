@@ -1,8 +1,7 @@
 #include <iostream>
-#include "Voca_Header/handler.hpp"
+#include "Voca_Header/Handler.hpp"
 
 int main() {
-    std::cout << "테스트" << std::endl;
     Handler* handler;
     auto fhandler = FHandler::get();
 

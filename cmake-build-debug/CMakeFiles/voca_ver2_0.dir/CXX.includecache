@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/altair823/Desktop/voca_ver2_0/Console_ioHandler.cpp
-Voca_Header/Console_ioHandler.hpp
-/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp
+/Users/altair823/Desktop/voca_ver2_0/File_ioHandler.cpp
+Voca_Header/File_ioHandler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp
+
+/Users/altair823/Desktop/voca_ver2_0/Handler.cpp
+Voca_Header/Handler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Handler.hpp
+
+/Users/altair823/Desktop/voca_ver2_0/Quiz.cpp
+Voca_Header/Quiz.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Quiz.hpp
 
 /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp
 iostream
@@ -28,21 +36,25 @@ fstream
 Data_Structure.hpp
 /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp
 
-/Users/altair823/Desktop/voca_ver2_0/Voca_Header/handler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Handler.hpp
 iostream
 -
 File_ioHandler.hpp
 /Users/altair823/Desktop/voca_ver2_0/Voca_Header/File_ioHandler.hpp
 Console_ioHandler.hpp
 /Users/altair823/Desktop/voca_ver2_0/Voca_Header/Console_ioHandler.hpp
+Quiz.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Quiz.hpp
 
-/Users/altair823/Desktop/voca_ver2_0/handler.cpp
-Voca_Header/handler.hpp
-/Users/altair823/Desktop/voca_ver2_0/Voca_Header/handler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Quiz.hpp
+Data_Structure.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Data_Structure.hpp
+Handler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Handler.hpp
 
 /Users/altair823/Desktop/voca_ver2_0/main.cpp
 iostream
 -
-Voca_Header/handler.hpp
-/Users/altair823/Desktop/voca_ver2_0/Voca_Header/handler.hpp
+Voca_Header/Handler.hpp
+/Users/altair823/Desktop/voca_ver2_0/Voca_Header/Handler.hpp
 
